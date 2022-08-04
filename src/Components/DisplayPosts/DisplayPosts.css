@@ -1,0 +1,34 @@
+.wrap{
+    background-color: #DEC19B;
+    width: 40%;
+    margin: 2rem auto;
+    padding:  2rem 0;
+    box-shadow: 2px 7px 2px gray;
+    border-radius: 40px;
+    font-family: "Century Gothic", Times, serif;
+    border: 2px solid black;
+   
+}
+
+.postFeed{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 5px;
+}
+
+.postName{
+    background-color: beige;
+    padding: 3px;
+    border-radius: 7px;
+
+}
+
+.postText{
+    font-weight: 500;
+
+}
+.feedContent{
+    
+}

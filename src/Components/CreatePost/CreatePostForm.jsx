@@ -23,11 +23,7 @@ const CreatePost = (props) =>{
                     <label>Name</label>
                 </div>
                 <div className='nameInputBox'>
-                    <textarea
-                        type='text'
-                        value={name}
-                        onChange={(event) => setName(event.target.value)}
-                        ></textarea>
+                    <input type='text' value={name} onChange={(event) => setName(event.target.value)} />
                 </div>              
             </div>
             <div className='form-group'>

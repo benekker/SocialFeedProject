@@ -3,26 +3,26 @@ import NavBar from './Components/NavBar/NavBar';
 import CreatePost from './Components/CreatePost/CreatePostForm';
 import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
 
+
 function App() {
   const [createdPosts, setcreatedPosts] = useState([]);
 
   function addNewPost(post) {
-    let inputEntries = [...createdPosts, post];
+    let inputPosts = [...createdPosts, post];
 
-    setcreatedPosts(inputEntries);
+    setcreatedPosts(inputPosts);
   }
 
 
 
 
   return (
-    <div>
+    <div className='App'>
       <NavBar />
-      <CreatePost addNewPost={addNewPost} />
-      <DisplayPosts parentPost={createdPosts} />
-
-
-
+      <div className='content'>
+        <CreatePost addNewPost={addNewPost} />
+        <DisplayPosts parentPost={createdPosts} />
+      </div>
     </div>
     
   );

@@ -2,11 +2,11 @@ import './NavBar.css';
 
 const NavBar = (props) =>{
     return (
-        <div className="container-fluid">
-                <h1 style={{'margin': '10px'}}>Social
+        <nav className="navbar">
+            <h1 className='header' >Social
                 <small className="text-muted">Feed</small>
-                </h1>
-        </div>
+            </h1>
+        </nav>
     );
 }
 export default NavBar;
