@@ -1,6 +1,6 @@
 .wrap{
     background-color: #DEC19B;
-    width: 40%;
+    width: 60%;
     margin: 2rem auto;
     padding:  2rem 0;
     box-shadow: 2px 7px 2px gray;
@@ -33,9 +33,10 @@
     
 }
 .likeButtonWrap{
-    margin-right: 2rem;
+    margin-right: 32px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-self: flex-start;
+    
 }

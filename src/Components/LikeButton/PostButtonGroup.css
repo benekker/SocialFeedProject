@@ -1,0 +1,28 @@
+.likeActive{
+    background-color: green;
+    
+    
+}
+
+.dislikeActive{
+    background-color: red;
+}
+
+.buttonWrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button img {
+    height:100%;
+    width: 100%;
+    
+}
+
+.buttonWrap button{
+    width: 60px;
+    height: 60px;
+    padding: 4px;
+    margin: 12px;
+}

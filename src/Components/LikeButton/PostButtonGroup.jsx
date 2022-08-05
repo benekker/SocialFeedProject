@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import like from "./Images/icons8-facebook-like-50.png"
-import dislike from "./Images/icons8-dislike-64.png"
-import "./LikeButton.css"
+import like from "./Images/icons8-thumbs-up-100.png"
+import dislike from "./Images/icons8-thumbs-down-100.png"
+import "./PostButtonGroup.css"
 
-const LikeButton = (props) =>{
+const PostButtonGroup = (props) =>{
 
     const [likeButtonClass, setLikeButtonClass] = useState("likeInactive");
     const [dislikeButtonClass, setDislikeButtonClass] = useState("likeInactive");
@@ -39,4 +39,4 @@ const LikeButton = (props) =>{
             </div>
         )
 }
-export default LikeButton
+export default PostButtonGroup

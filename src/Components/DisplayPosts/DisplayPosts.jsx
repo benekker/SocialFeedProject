@@ -1,5 +1,5 @@
 import './DisplayPosts.css'
-import LikeButton from '../LikeButton/LikeButton';
+import PostButtonGroup from '../LikeButton/PostButtonGroup';
 
 const DisplayPosts = (props) =>{
     return (
@@ -13,7 +13,7 @@ const DisplayPosts = (props) =>{
                             <p className="postText">{post.postText}</p>
                         </div>
                         <div className='likeButtonWrap'>
-                            <LikeButton/>
+                            <PostButtonGroup/>
                         </div>
                     </div>
                 );
