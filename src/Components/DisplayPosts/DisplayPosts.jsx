@@ -11,6 +11,8 @@ const DisplayPosts = (props) =>{
                         <div className='feedContent' >
                             <h3 className="postName">{post.name}</h3>
                             <p className="postText">{post.postText}</p>
+                        </div>
+                        <div className='likeButtonWrap'>
                             <LikeButton/>
                         </div>
                     </div>

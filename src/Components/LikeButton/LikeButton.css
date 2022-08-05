@@ -1,7 +1,14 @@
-.active{
+.likeActive{
     background-color: green;
+    
+    
 }
 
-.inactive{
+.dislikeActive{
     background-color: red;
+}
+
+.buttonWrap{
+    display: flex;
+    flex-direction: row;
 }
