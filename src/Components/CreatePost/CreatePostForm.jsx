@@ -22,9 +22,7 @@ const CreatePost = (props) =>{
                 <div className='nameLabel'>
                     <label>Name</label>
                 </div>
-                <div className='nameInputBox'>
-                    <input type='text' value={name} onChange={(event) => setName(event.target.value)} />
-                </div>              
+                    <input type='text' className='inputNameTextBox' value={name} onChange={(event) => setName(event.target.value)} />         
             </div>
             <div className='form-group'>
                 <div className='postLabel'>
@@ -32,15 +30,14 @@ const CreatePost = (props) =>{
                 </div>
                 <div className='postInputBox'>
                     <textarea
+                        className='postTextArea'
                         type='text'
                         value={postText}
                         onChange={(event) => setPostText(event.target.value)}
                         ></textarea>
                 </div>   
             </div>
-            <div className='button'>
-                <button type='submit' className='btn btn-primary' style={{'margin-top': '1em'}}>Create</button>
-            </div>
+                <button type='submit' className='submitButton' style={{'margin-top': '1em'}}>Create</button>
             </div>
         </form>
     )

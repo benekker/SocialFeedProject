@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import like from "./Images/icons8-thumbs-up-100.png"
-import dislike from "./Images/icons8-thumbs-down-100.png"
+import like from "./ButtonAssets/icons8-thumbs-up-100.png"
+import dislike from "./ButtonAssets/icons8-thumbs-down-100.png"
 import "./PostButtonGroup.css"
 
 const PostButtonGroup = (props) =>{

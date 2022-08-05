@@ -4,9 +4,26 @@
 }
 
 .navbar{
-    margin-left: 20px;
+    margin: 0 auto;
     font-family: "Century Gothic", Times, serif;;
-    font-size: larger;
-    margin-top: 10px;
+    font-size: 30px;
+    padding: 4px;
+    background-image: linear-gradient(to bottom, #f57f0a, #f5f100 );
+    height: 70px;
+    border-bottom: 1px solid black;
     
+
+    
+}
+
+.cactusLogo{
+    padding: 2px ;
+    position: relative;
+    left: 195px;
+    bottom: 60px
+}
+
+.header{
+    margin-left: 5px;
+    margin-top: 8px;
 }

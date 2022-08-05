@@ -22,16 +22,20 @@
     background-color: beige;
     padding: 3px;
     border-radius: 7px;
+    text-align: left;
 
 }
 
 .postText{
     font-weight: 500;
+    background-color: #ebdcd8;
+    border-radius: 7px;
+    padding: 3px;
+    margin: 6px auto;
+    margin-left: 20px;
+    font-size: 20px;
+}
 
-}
-.feedContent{
-    
-}
 .likeButtonWrap{
     margin-right: 32px;
     display: flex;
